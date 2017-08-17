@@ -10,12 +10,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-/*
- * Name:
- * Date:
- * StudentID:
- * Description:
- * Version:
+/* Name: Bishnu Khanal
+ *  Student ID: 300924228
+ * Date: July 13, 2017
+ * Description: This is the PickHighestClassForm
+ * Version:0.2 - Created PickHighestClassForm
  */
 
 namespace COMP123_S2017_FinalExam_StudentID
