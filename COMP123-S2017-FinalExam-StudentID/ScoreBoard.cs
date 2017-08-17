@@ -81,7 +81,16 @@ namespace COMP123_S2017_FinalExam_StudentID
             set
             {
                 this._timeTextBox = value;
+
+
             }
-        }      
+        } 
+        /// <summary>
+        /// this UpdateTime method updates the time to the current time
+        /// </summary>
+         public void UpdateTime()
+        {
+
+        }
     }
 }
