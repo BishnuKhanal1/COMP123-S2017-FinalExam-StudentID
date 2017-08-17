@@ -4,12 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-/*
- * Name:
- * Date:
- * StudentID:
- * Description:
- * Version:
+/* Name: Bishnu Khanal
+ * Student ID: 300924228
+ * Date: July 13, 2017
+ * Description: This is the Program Class
+ * Version:0.1 - Created FinalTest project ScoreBoard CardGame
  */
 
 namespace COMP123_S2017_FinalExam_StudentID
@@ -24,7 +23,7 @@ namespace COMP123_S2017_FinalExam_StudentID
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PickHighestCardForm());
+            Application.Run(new SplashFormCardGame());
         }
     }
 }
