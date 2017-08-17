@@ -7,7 +7,7 @@ using System.Windows.Forms;
 /* Name: Bishnu Khanal
 * Date: July 13, 2017
 * Description: This is the SecondBoardClas
-* Version:0.3 - Added private Inastance variables and public properties to SecondBoard class
+* Version:0.4 - Refactore the UpdateTimeMethod in ScoreBoard class
 */
 namespace COMP123_S2017_FinalExam_StudentID
 {
@@ -90,7 +90,7 @@ namespace COMP123_S2017_FinalExam_StudentID
         /// </summary>
          public void UpdateTime()
         {
-
+            this.Time = Convert.ToInt32(TimeTextBox.Text)-1;
         }
     }
 }

@@ -213,6 +213,9 @@ namespace COMP123_S2017_FinalExam_StudentID
             this._enableDealtCards();
             this._hideFinalScore();
             UserMessageTextBox.Text = "Click the Deal Button!";
+            //set the value
+            ScoreBoard.Text.Score = 0;
+            ScoreBoard.Time = 30;
         }
 
         /// <summary>
