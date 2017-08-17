@@ -7,34 +7,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
-/*
- * Name:
- * Date:
- * StudentID:
- * Description:
- * Version:
+/* Name: Bishnu Khanal
+ * Date: July 13, 2017
+ * Description: This is the SpalshForm for Cards game
+ * Version:0.1 - Created the SplashForm
  */
-
 namespace COMP123_S2017_FinalExam_StudentID
+
 {
-    public partial class SplashForm : Form
+    public partial class SplashForm: Form
     {
         public SplashForm()
         {
             InitializeComponent();
         }
-
-        /// <summary>
-        /// This is the SplashFormTimer's "Tick" event handler method
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void SplashFormTimer_Tick(object sender, EventArgs e)
-        {
-            SplashFormTimer.Enabled = false;
-            this.Hide();
-            Program.pickHighestCardForm.Show();
-        }
+        
     }
 }
