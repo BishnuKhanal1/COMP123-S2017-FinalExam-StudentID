@@ -14,7 +14,7 @@ using System.Windows.Forms;
  *  Student ID: 300924228
  * Date: July 13, 2017
  * Description: This is the PickHighestClassForm
- * Version:0.2 - Created PickHighestClassForm
+ * Version:0.3 -  Added ScoreBoard property
  */
 
 namespace COMP123_S2017_FinalExam_StudentID
@@ -28,6 +28,7 @@ namespace COMP123_S2017_FinalExam_StudentID
         Deck _deck;
         Hand _hand;
         int _maximumPoints;
+        private int _scoreBoard;
 
         // PUBLIC PROPERTIES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
         public List<PictureBox> DealtCardPictureBoxList
@@ -108,6 +109,20 @@ namespace COMP123_S2017_FinalExam_StudentID
             set
             {
                 this._maximumPoints = value;
+            }
+        }
+        /// <summary>
+        /// Added ScoreBoard property
+        /// </summary>
+        public int ScoreBoard
+        {
+            get
+            {
+                return this._scoreBoard;
+            }
+            set
+            {
+                this._scoreBoard = value;
             }
         }
 
